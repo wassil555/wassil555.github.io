@@ -9,7 +9,7 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         
 
-
+<style>
 .pfcar{
 
   background-color: white;
@@ -136,6 +136,7 @@ justify-content: center;
   height: 15%;
   background-color: rgb(31, 31, 32);
 }
+</style> 
     </head>
     <body>
     <div class="pfcar">
