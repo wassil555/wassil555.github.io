@@ -1,0 +1,129 @@
+
+
+
+.pfcar{
+
+  background-color: white;
+  border-radius: 5px;
+  width: 250px;
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.img{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: rgb(24, 24, 26);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50px;
+  margin-bottom: 5px;
+  margin-top: -23px;
+}
+.imge{
+  width: 100px;
+  object-fit: cover;
+  border-radius: 55px;
+  border-color: white;
+  border-width: 2px;
+
+}
+.pfcar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name{
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+.logo{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 0.50px;
+}
+.link{
+  
+  color: white;
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.face{
+  background-color: rgb(59, 89, 152) ; 
+  border-color: rgb(59, 89, 152);
+  width: 20px; height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.insta{
+
+background-color: rgb(193, 53, 132);
+width: 20px; height: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.you{
+  background-color: rgb(225, 0, 0);
+  width: 20px; height: 20px;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+.dis{
+  background-color: rgb(114, 137, 218);
+  width: 20px; height: 20px;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+.second-button{
+  background-color: rgb(14, 53, 124);
+  color: white;
+  border: none;
+  height: 24px;
+  width: 85px;
+  border-radius: 43px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.second-button:hover{
+  border-radius: 43px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.first-button{
+  background-color: rgb(219, 19, 19);
+  color: white;
+  border: none;
+  height: 24px;
+  width: 85px;
+  border-radius: 43px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.first-button:hover{
+  border-radius: 43px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.pfcar::before{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 2;
+  width: 18.3%;
+  height: 15%;
+  background-color: rgb(31, 31, 32);
+}
